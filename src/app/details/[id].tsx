@@ -22,7 +22,6 @@ import { TransactionProps } from "@/components/Transaction";
 import { TransactionTypeSelect } from "@/components/TransactionTypeSelect";
 
 // UTILS
-import { mocks } from "@/utils/mocks";
 import { currencyFormat } from "@/utils/currencyFormat";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 
@@ -134,7 +133,7 @@ export default function Details() {
   }
 
   return (
-    <View className="flex-1 p-8 pt-12">
+    <View className="flex-1 p-8 pt-20">
       <View style={styles.content}>
         <BackButton />
         <MaterialIcons
